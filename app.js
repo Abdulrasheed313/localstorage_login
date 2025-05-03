@@ -15,7 +15,7 @@ function signup(){
     getSignUpName.value = "";
     getSignUpEmail.value = "";
     getSignUpPassword.value = "";
-    location.href = "./login.html";
+    location.href = "./index.html";
   });
 
   
@@ -44,5 +44,5 @@ function login(){
 
 document.getElementById('welcomeusername').innerText = localStorage.getItem('signupname') || 'User';
 function logout() {
-  window.location.href = "login.html";
+  window.location.href = "index.html";
 }
